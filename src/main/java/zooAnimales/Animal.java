@@ -28,7 +28,7 @@ public class Animal {
 		+ "\n" + "Peces: " + Pez.cantidadPeces() + "\n" + "Anfibios: " + Anfibio.cantidadAnfibios());
 	}
 	public String toString() {
-		if(zona[0] == null) {
+		if(zona.length == 0) {
 			return "Mi nombre es " + nombre + ", tengo una edad de " + edad + ", habito en " + habitat + " y mi genero es " +
 					genero;
 		}
