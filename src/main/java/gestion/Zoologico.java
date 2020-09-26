@@ -5,7 +5,7 @@ import java.util.*;
 public class Zoologico {
 	private String nombre;
 	private String ubicacion;
-	private LinkedList<Zona> zonas;
+	private LinkedList<Zona> zonas = new LinkedList<Zona>();
 	
 	public Zoologico () {
 		
@@ -17,6 +17,7 @@ public class Zoologico {
 	public void agregarZonas(Zona zona) {
 		zonas.add(zona);
 	}
+	
 	public int cantidadTotalAnimales() {
 		int cantidad = 0;
 		for(int i = 0; i < zonas.size(); i++) {
