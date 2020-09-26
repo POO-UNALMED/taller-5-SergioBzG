@@ -39,8 +39,8 @@ public class Animal {
 			}
 		}
 		catch(NullPointerException execepcion){
-				return "Mi nombre es " + this.getNombre() + ", tengo una edad de " + this.getEdad() + ", habito en " + this.getHabitat() + " y mi genero es " +
-						this.getGenero() + ", la zona en la que me ubico es " + this.zona[0] + ", en el " + this.zona[0].getZoo();
+			return "Mi nombre es " + this.getNombre() + ", tengo una edad de " + this.getEdad() + ", habito en " + this.getHabitat() + " y mi genero es " +
+					this.getGenero();
 		}
 	}
 	public void setNombre(String nombre) {
