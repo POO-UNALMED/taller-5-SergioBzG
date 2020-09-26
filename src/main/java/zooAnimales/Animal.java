@@ -34,7 +34,7 @@ public class Animal {
 		}
 		else {
 			return "Mi nombre es " + nombre + ", tengo una edad de " + edad + ", habito en " + habitat + " y mi genero es " +
-			genero + ", la zona en la que me ubico es " + zona[0] + ", en el " + zona[0].getZoologico();
+			genero + ", la zona en la que me ubico es " + zona[0] + ", en el " + zona[0].getZoo();
 		}
 	}
 	public void setNombre(String nombre) {
