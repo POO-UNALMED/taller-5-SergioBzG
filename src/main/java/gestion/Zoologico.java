@@ -10,10 +10,9 @@ public class Zoologico {
 	public Zoologico () {
 		
 	}
-	public Zoologico (String nombre, String ubicacion, LinkedList<Zona> zonas) {
+	public Zoologico (String nombre, String ubicacion) {
 		this.nombre = nombre; 
 		this.ubicacion = ubicacion; 
-		this.zonas = zonas;
 	}
 	public void agregarZonas(Zona zona) {
 		zonas.add(zona);
@@ -39,7 +38,7 @@ public class Zoologico {
 	public String getUbicacion() {
 		return ubicacion;
 	}
-	public LinkedList<Zona> getZona(){ //no hice set para este
+	public LinkedList<Zona> getZona(){ 
 		return zonas;
 	}
 }

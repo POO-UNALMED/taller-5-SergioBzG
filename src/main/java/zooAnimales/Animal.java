@@ -13,13 +13,12 @@ public class Animal {
 	public Animal () {
 		this.totalAnimales++;
 	}
-	public Animal (int totalAnimales, String nombre, int edad, String habitat, String genero, Zona[] zona) {
-		this.totalAnimales = totalAnimales;
+	public Animal (String nombre, int edad, String habitat, String genero) {
 		this.nombre = nombre;
 		this.edad = edad;
 		this.habitat = habitat;
 		this.genero = genero;
-		this.zona = zona;
+		this.totalAnimales++;
 	}
 	public String movimiento() {
 		return "desplazarse";
@@ -52,7 +51,7 @@ public class Animal {
 	}
 	public void setHabitat(String habitat) {
 		this.habitat = habitat;
-	}                                                     //Todos los sets y gets - (totalAnimales)
+	}                                                    
 	public String getHabitat() {
 		return habitat;
 	}
