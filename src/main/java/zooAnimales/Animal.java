@@ -28,20 +28,8 @@ public class Animal {
 		+ "\n" + "Peces: " + Pez.cantidadPeces() + "\n" + "Anfibios: " + Anfibio.cantidadAnfibios());
 	}
 	public String toString() {
-		try {
-			if(zona.length == 0) {
-				return "Mi nombre es " + this.getNombre() + ", tengo una edad de " + this.getEdad() + ", habito en " + this.getHabitat() + " y mi genero es " +
-						this.getGenero();
-			}
-			else {
-				return "Mi nombre es " + this.getNombre() + ", tengo una edad de " + this.getEdad() + ", habito en " + this.getHabitat() + " y mi genero es " +
-						this.getGenero() + ", la zona en la que me ubico es " + this.zona[0] + ", en el " + this.zona[0].getZoo();
-			}
-		}
-		catch(NullPointerException execepcion){
-			return "Mi nombre es " + this.getNombre() + ", tengo una edad de " + this.getEdad() + ", habito en " + this.getHabitat() + " y mi genero es " +
-					this.getGenero();
-		}
+		return "Mi nombre es " + this.getNombre() + ", tengo una edad de " + this.getEdad() + ", habito en " + this.getHabitat() + " y mi genero es " +
+				this.getGenero();
 	}
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
