@@ -29,12 +29,12 @@ public class Animal {
 	}
 	public String toString() {
 		if(zona.length == 0) {
-			return "Mi nombre es " + nombre + ", tengo una edad de " + edad + ", habito en " + habitat + " y mi genero es " +
-					genero;
+			return "Mi nombre es " + this.getNombre() + ", tengo una edad de " + this.getEdad() + ", habito en " + this.getHabitat() + " y mi genero es " +
+					this.getGenero();
 		}
 		else {
-			return "Mi nombre es " + nombre + ", tengo una edad de " + edad + ", habito en " + habitat + " y mi genero es " +
-			genero + ", la zona en la que me ubico es " + zona[0] + ", en el " + zona[0].getZoo();
+			return "Mi nombre es " + this.getNombre() + ", tengo una edad de " + this.getEdad() + ", habito en " + this.getHabitat() + " y mi genero es " +
+					this.getGenero() + ", la zona en la que me ubico es " + this.zona[0] + ", en el " + this.zona[0].getZoo();
 		}
 	}
 	public void setNombre(String nombre) {
