@@ -3,7 +3,7 @@ package zooAnimales;
 import gestion.*;
 
 public class Mamifero extends Animal {
-	private static int listado;
+	private static int listado = 0;
 	public static int caballos;
 	public static int leones;
 	private boolean pelaje;

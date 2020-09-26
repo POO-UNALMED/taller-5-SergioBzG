@@ -3,7 +3,7 @@ package zooAnimales;
 import gestion.*;
 
 public class Anfibio extends Animal {
-	private static int listado;
+	private static int listado = 0;
 	public static int ranas;
 	public static int salamandras;
 	private String colorPiel;

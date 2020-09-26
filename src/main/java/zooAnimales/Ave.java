@@ -3,7 +3,7 @@ package zooAnimales;
 import gestion.*;
 
 public class Ave extends Animal {
-	private static int listado;
+	private static int listado = 0;
 	public static int halcones;
 	public static int aguilas;
 	private String colorPlumas;
